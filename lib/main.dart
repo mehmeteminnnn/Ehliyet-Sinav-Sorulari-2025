@@ -802,7 +802,7 @@ class _TestScreenState extends State<TestScreen> {
                             });
                           },
                           child: const Text('Testi Tekrar Çöz'),
-                        ),
+                        ),SizedBox(width: 12),
                         ElevatedButton(
                           onPressed: () {
                             if (hasPassedTest) {

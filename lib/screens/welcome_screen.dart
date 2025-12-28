@@ -56,7 +56,7 @@ class WelcomeScreen extends StatelessWidget {
                       SizedBox(height: 16),
                       _RuleItem(
                         icon: Icons.lightbulb_outline,
-                        text: 'Doğru cevaplar test sonunda gösterilecektir',
+                        text: 'Doğru cevaplar test sonunda gösterilecektir.',
                       ),
                     ],
                   ),

@@ -5,7 +5,7 @@ class Test10Data {
   static Test getTest() {
     return Test(
       testNumber: 10,
-      isLocked: false, // İlk test açık olsun
+      isLocked: true, // İlk test açık olsun
       questions: [
         Question(
           questionText:
