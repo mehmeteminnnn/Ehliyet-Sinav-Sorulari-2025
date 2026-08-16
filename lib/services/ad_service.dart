@@ -8,7 +8,7 @@ class AdService {
   AdService._internal();
 
   static String get interstitialAdUnitId =>
-      'ca-app-pub-2913289160482051/6003166560';
+      'ca-app-pub-2913289160482051/1754420970';
 
   InterstitialAd? _interstitialAd;
   RewardedAd? _rewardedAd;
@@ -78,7 +78,7 @@ class AdService {
 
   void loadRewardedAd() {
     RewardedAd.load(
-      adUnitId: 'ca-app-pub-2913289160482051/5837415534',
+      adUnitId: 'ca-app-pub-2913289160482051/1286044933',
       request: const AdRequest(),
       rewardedAdLoadCallback: RewardedAdLoadCallback(
         onAdLoaded: (RewardedAd ad) {

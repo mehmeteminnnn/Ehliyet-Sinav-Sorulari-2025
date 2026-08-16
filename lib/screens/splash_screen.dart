@@ -102,7 +102,7 @@ class _SplashScreenState extends State<SplashScreen>
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    '2025',
+                    '2026',
                     textAlign: TextAlign.center,
                     style: GoogleFonts.poppins(
                       fontSize: 24,
