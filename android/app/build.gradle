@@ -72,9 +72,9 @@ android {
 
     namespace "com.meminapp.ehliyet2025" // Paket adınızı doğru şekilde ekledim
 
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
 
-    ndkVersion flutter.ndkVersion
+    ndkVersion "28.2.13676358"
 
    
 
@@ -112,11 +112,11 @@ android {
 
         minSdk = flutter.minSdkVersion
 
-        targetSdk = flutter.targetSdkVersion
+        targetSdk = 36
 
-        versionCode = 8
+        versionCode = 9
 
-        versionName = "1.0.7"
+        versionName = "1.0.8"
 
     }
 
