@@ -93,6 +93,18 @@ class _TestListScreenState extends State<TestListScreen> {
     super.initState();
     _adService.loadInterstitialAd();
     _adService.loadRewardedAd();
+    _restoreTestProgress();
+  }
+
+  Future<void> _restoreTestProgress() async {
+    final unlockedLevels = await PreferencesService.getUnlockedLevels();
+    final progress = await PreferencesService.getLevelProgress();
+    for (final test in tests) {
+      test.isLocked = !unlockedLevels.contains('level${test.testNumber}');
+      test.score = progress['level${test.testNumber}'];
+      test.isCompleted = (test.score ?? 0) >= 35;
+    }
+    if (mounted) setState(() {});
   }
 
   @override
@@ -121,17 +133,23 @@ class _TestListScreenState extends State<TestListScreen> {
                 onPressed: () {
                   Navigator.pop(context);
                   _adService.showRewardedAd(() {
-                    setState(() {
-                      test.isLocked = false;
+                    PreferencesService
+                        .unlockLevel('level${test.testNumber}')
+                        .then((_) {
+                      if (!mounted) return;
+                      setState(() => test.isLocked = false);
                     });
                   });
                 },
                 child: const Text('Reklam İzle'),
               ),
             TextButton(
-              onPressed: () {
+              onPressed: () async {
                 Navigator.pop(context);
                 if (canUnlockWithPreviousTest) {
+                  await PreferencesService
+                      .unlockLevel('level${test.testNumber}');
+                  if (!mounted) return;
                   setState(() {
                     test.isLocked = false;
                   });
@@ -455,9 +473,6 @@ class _TestScreenState extends State<TestScreen> {
   void initState() {
     super.initState();
     _adService.loadInterstitialAd();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      _adService.showInterstitialAd();
-    });
   }
 
   @override
@@ -1144,14 +1159,23 @@ class _TestScreenState extends State<TestScreen> {
                                 color: Colors.white.withOpacity(0.8)),
                             padding: const EdgeInsets.symmetric(vertical: 14),
                           ),
-                          onPressed: () {
+                          onPressed: () async {
                             if (hasPassedTest) {
+                              widget.test.score = correctAnswers;
+                              widget.test.isCompleted = true;
+                              await PreferencesService.setLevelProgress(
+                                'level${widget.test.testNumber}',
+                                correctAnswers,
+                              );
                               if (widget.test.testNumber <
                                   widget.tests.length) {
-                                widget.tests[widget.test.testNumber].isLocked =
-                                    false;
+                                final nextTest =
+                                    widget.tests[widget.test.testNumber];
+                                nextTest.isLocked = false;
+                                await PreferencesService.unlockLevel(
+                                  'level${nextTest.testNumber}',
+                                );
                               }
-                              widget.test.isCompleted = true;
                             }
                             Navigator.pushNamedAndRemoveUntil(
                               context,

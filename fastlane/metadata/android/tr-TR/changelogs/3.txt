@@ -1,0 +1,4 @@
+• Yeni test kilidi düzeni: Yalnızca Test 1 açık başlar. Sonraki testleri önceki testten en az 35 doğru alarak veya ödüllü reklam izleyerek açabilirsiniz.
+• Geçiş reklamları testin ortasında ve son sorudan önce gösterilir.
+• Android ana ekranındaki uygulama simgesi daha dengeli görünecek şekilde düzenlendi.
+• Yazı tipi ve görsel yükleme uyumluluğu iyileştirildi.

@@ -181,11 +181,6 @@ class AdService {
   }
 
   void showTestAd(int currentQuestionIndex, int totalQuestions) {
-    if (currentQuestionIndex == 0) {
-      showInterstitialAd();
-      return;
-    }
-
     if (currentQuestionIndex == (totalQuestions ~/ 2)) {
       showInterstitialAd();
       return;
