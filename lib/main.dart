@@ -111,7 +111,6 @@ class _TestListScreenState extends State<TestListScreen> {
               TextButton(
                 onPressed: () {
                   Navigator.pop(context);
-                  _adService.loadRewardedAd();
                   _adService.showRewardedAd(() {
                     setState(() {
                       test.isLocked = false;

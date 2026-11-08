@@ -54,7 +54,7 @@ class Test10Data {
             'Hız sınırlaması sonu'
           ],
           correctAnswer: 'B',
-          imageUrl: "assets/images/denem10-5.png",
+          imageUrl: "assets/images/deneme10-5.png",
         ), // Soru 5
 
         Question(
@@ -100,7 +100,7 @@ class Test10Data {
               'Yukarıdakilerden hangisi ana yol - tali yol kavşağını bildiren levhalardan değildir?',
           options: ['A', 'B', 'C', 'D'],
           correctAnswer: 'D',
-          imageUrl: "assets/images/denem10-10.png",
+          imageUrl: "assets/images/deneme10-10.png",
         ), // Soru 10
 
         Question(
@@ -156,7 +156,7 @@ class Test10Data {
             'Öndeki taşıtı geçme yasağını'
           ],
           correctAnswer: 'D',
-          imageUrl: "assets/images/denem10-15.png",
+          imageUrl: "assets/images/deneme10-15.png",
         ), // Soru 15
 
         Question(
@@ -211,7 +211,7 @@ class Test10Data {
               'Yukarıdaki trafik işaretlerinden hangisi kontrolsüz demir yolu geçidine yaklaşıldığını bildirir?',
           options: ['A', 'B', 'C', 'D'],
           correctAnswer: 'A',
-          imageUrl: "assets/images/denem10-20.png",
+          imageUrl: "assets/images/deneme10-20.png",
         ), // Soru 20
         Question(
           questionText:
@@ -235,7 +235,7 @@ class Test10Data {
             'Önündeki aracı ikaz ederek hızlanmasını istemesi',
           ],
           correctAnswer: 'D',
-          imageUrl: "assets/images/denem10-22.png",
+          imageUrl: "assets/images/deneme10-22.png",
         ), // Soru 22
 
         Question(
@@ -319,7 +319,7 @@ class Test10Data {
             'D',
           ],
           correctAnswer: 'A',
-          imageUrl: "assets/images/denem10-29.png",
+          imageUrl: "assets/images/deneme10-29.png",
         ), // Soru 29
 
         Question(
@@ -366,7 +366,7 @@ class Test10Data {
             '1 ve 3',
           ],
           correctAnswer: 'B',
-          imageUrl: "assets/images/denem10-33.png",
+          imageUrl: "assets/images/deneme10-33.png",
         ), // Soru 33
 
         Question(
@@ -391,7 +391,7 @@ class Test10Data {
             '30',
           ],
           correctAnswer: 'A',
-          imageUrl: "assets/images/denem10-35.png",
+          imageUrl: "assets/images/deneme10-35.png",
         ), // Soru 35
 
         Question(

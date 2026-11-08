@@ -51,7 +51,7 @@ class Test9Data {
             '2 numaralı aracı uyararak yavaşlamasını sağlamalı'
           ],
           correctAnswer: 'B',
-          imageUrl: "assets/images/deneme9-4.jpg",
+          imageUrl: "assets/images/deneme9-4.png",
           // Soru 4
         ),
 
@@ -159,7 +159,7 @@ class Test9Data {
               'Şekilde soru işareti (?) ile gösterilen motor soğutma sistemi parçasının adı nedir?',
           options: ['Kayış', 'Radyatör', 'Soğutma fanı', 'Alternatör'],
           correctAnswer: 'C',
-          imageUrl: "assets/images/deneme9-13.jpg",
+          imageUrl: "assets/images/deneme9-13.png",
           // Soru 13
         ),
 
@@ -211,7 +211,7 @@ class Test9Data {
             'Sağa dönülmez'
           ],
           correctAnswer: 'A',
-          imageUrl: "assets/images/deneme9-17.jpg",
+          imageUrl: "assets/images/deneme9-17.png",
           // Soru 17
         ),
 
@@ -266,7 +266,7 @@ class Test9Data {
               'Trafik uygun olsa bile şekildeki kavşakta hangi numaralı araçların ok yönündeki hareketi kesinlikle yasaktır?',
           options: ['Yalnız 1', 'Yalnız 3', '1 ve 3', '2 ve 4'],
           correctAnswer: 'D',
-          imageUrl: "assets/images/deneme9-22.jpg",
+          imageUrl: "assets/images/deneme9-22.png",
         ), // Soru 22
 
         Question(
@@ -291,7 +291,7 @@ class Test9Data {
             'Yaya geçidine yaklaşırken hızını azaltması'
           ],
           correctAnswer: 'C',
-          imageUrl: "assets/images/deneme9-24.jpg",
+          imageUrl: "assets/images/deneme9-24.png",
         ), // Soru 24
 
         Question(
@@ -311,7 +311,7 @@ class Test9Data {
               'Resimde görülen koruma başlığını, aşağıda verilenlerden hangilerinin kullanması zorunludur?',
           options: ['I ve II', 'III ve IV', 'I, II ve III', 'I, II, III ve IV'],
           correctAnswer: 'D',
-          imageUrl: "assets/images/deneme9-26.jpg",
+          imageUrl: "assets/images/deneme9-26.png",
         ), // Soru 26
 
         Question(
@@ -435,7 +435,7 @@ class Test9Data {
               'Haritada yeri gösterilen illerden hangisi daha güneydedir?',
           options: ['Uşak', 'Sivas', 'Trabzon', 'Konya'],
           correctAnswer: 'D',
-          imageUrl: "assets/images/deneme9-38.jpg",
+          imageUrl: "assets/images/deneme9-38.png",
         ), // Soru 38
 
         Question(
@@ -521,7 +521,7 @@ class Test9Data {
             'Düşük banketli yol kesimine yaklaşıldığını'
           ],
           correctAnswer: 'A',
-          imageUrl: "assets/images/deneme9-46.jpg",
+          imageUrl: "assets/images/deneme9-46.png",
         ), // Soru 46
 
         Question(

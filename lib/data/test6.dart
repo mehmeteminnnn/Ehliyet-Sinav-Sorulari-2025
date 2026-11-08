@@ -19,7 +19,7 @@ class Test6Data {
               'Şekildeki numaralanmış şeritlerden hangisi otoyollardan ayrılmak isteyen araçlar içindir?',
           options: ['1', '2', '3', '4'],
           correctAnswer: 'A',
-          imageUrl: "assets/images/test6-2.png",
+          imageUrl: "assets/images/deneme6-2.png",
         ), // Soru 2
 
         Question(
@@ -39,7 +39,7 @@ class Test6Data {
               'Haritalarda gösterilen şekildeki işaret, aşağıdakilerden hangisine verilen yol numarasıdır?',
           options: ['Uluslararası yol', 'Devlet yolu', 'Demir yolu', 'Otoyol'],
           correctAnswer: 'A',
-          imageUrl: "assets/images/test6-4.png",
+          imageUrl: "assets/images/deneme6-4.png",
         ), // Soru 4
 
         Question(
@@ -47,7 +47,7 @@ class Test6Data {
               'Şekildeki trafik görevlisinin yapmış olduğu işaretin sürücüler için anlamı nedir?',
           options: ['Dur', 'Hızlan', 'Yavaşla', 'Sağa yanaş'],
           correctAnswer: 'C',
-          imageUrl: "assets/images/test6-5.png",
+          imageUrl: "assets/images/deneme6-5.png",
         ), // Soru 5
 
         Question(
@@ -226,7 +226,7 @@ class Test6Data {
           questionText: 'Yukarıdakilerden hangisi taşıt giremez işaretidir?',
           options: ['A', 'B', 'C', 'D'],
           correctAnswer: 'A',
-          imageUrl: "assets/images/test6-22.png",
+          imageUrl: "assets/images/deneme6-22.png",
         ),
 
         Question(
@@ -267,7 +267,7 @@ class Test6Data {
               'Yukarıdakilerden hangisinin otoyolda sürülmesi yasaktır?',
           options: ['A', 'B', 'C', 'D'],
           correctAnswer: 'B',
-          imageUrl: "assets/images/test6-27.png",
+          imageUrl: "assets/images/deneme6-27.png",
         ),
 
         Question(
@@ -519,7 +519,7 @@ class Test6Data {
               'Şekildeki aracın yoluna devam edebilmesi için, ışıklı trafik işaret cihazında yanan ışığın rengi ne olmalıdır?',
           options: ['Sarı', 'Yeşil', 'Kırmızı', 'Kırmızı ile birlikte sarı'],
           correctAnswer: 'B', // Soru 49
-          imageUrl: "assets/images/test6-49.png",
+          imageUrl: "assets/images/deneme6-49.png",
         ),
 
         Question(
