@@ -91,7 +91,7 @@ class _SplashScreenState extends State<SplashScreen>
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    'Ehliyet Sınavı',
+                    'Cebimde Benim Ehliyet',
                     textAlign: TextAlign.center,
                     style: GoogleFonts.poppins(
                       fontSize: 32,

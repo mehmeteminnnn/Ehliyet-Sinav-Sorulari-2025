@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Ehliyet Sınavı',
+      title: 'Cebimde Benim Ehliyet 2026',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: _brandPurple,
@@ -178,13 +178,16 @@ class _TestListScreenState extends State<TestListScreen> {
                           color: Colors.white.withOpacity(0.18),
                           borderRadius: BorderRadius.circular(14),
                         ),
-                        child: const Icon(Icons.directions_car_rounded,
-                            color: Colors.white),
+                        clipBehavior: Clip.antiAlias,
+                        child: Image.asset(
+                          'assets/brand/cebimde-benim-ehliyet-2026.png',
+                          fit: BoxFit.cover,
+                        ),
                       ),
                       const SizedBox(width: 12),
                       const Expanded(
                         child: Text(
-                          'Ehliyet Sınavı',
+                          'Cebimde Benim Ehliyet 2026',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w700,

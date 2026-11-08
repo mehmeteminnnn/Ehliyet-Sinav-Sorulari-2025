@@ -22,7 +22,7 @@ class WelcomeScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 32),
                 const Text(
-                  'Ehliyet Sınavına Hoş Geldiniz!',
+                  'Cebimde Benim Ehliyet 2026’ya Hoş Geldin!',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,

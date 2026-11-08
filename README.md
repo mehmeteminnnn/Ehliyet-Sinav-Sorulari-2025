@@ -1,4 +1,4 @@
-<h1>🚗 Ehliyet Sınavı 2025</h1>
+<h1>🚗 Cebimde Benim Ehliyet 2026</h1>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/412ad580-32be-44f7-9b4d-0e31272e33b6" width="150"/> &nbsp;
@@ -7,7 +7,7 @@
   <img src="https://github.com/user-attachments/assets/0ff2afe8-9c38-4995-af23-b2f8fda5ca5e" width="150"/>
 </p>
 
-**Ehliyet Sınavı 2025**, sürücü adaylarının sınav başarısını artırmayı hedefleyen, Android cihazlar için geliştirilmiş modern ve kullanıcı dostu bir mobil uygulamadır.
+**Cebimde Benim Ehliyet 2026**, sürücü adaylarının sınav başarısını artırmayı hedefleyen, Android cihazlar için geliştirilmiş modern ve kullanıcı dostu bir mobil uygulamadır.
 
 Bu uygulama ile ehliyet sınavına hazırlık sürecinde ihtiyaç duyduğun tüm bilgi ve sorulara kolayca ulaşabilir, eksiklerini tespit ederek sınava daha sağlam hazırlanabilirsin.
 
@@ -25,7 +25,7 @@ Bu uygulama ile ehliyet sınavına hazırlık sürecinde ihtiyaç duyduğun tüm
 
 Uygulamamı hemen indirmek için aşağıdaki bağlantıya tıklayın:
 
-➡️ **[Ehliyet Sınavı 2025 - Google Play](https://play.google.com/store/apps/details?id=com.meminapp.ehliyet2025)**  
+➡️ **[Cebimde Benim Ehliyet 2026 - Google Play](https://play.google.com/store/apps/details?id=com.meminapp.ehliyet2025)**  
 
 📌 Geri bildirimleriniz ve katkılarınız bizim için çok değerli!
 
